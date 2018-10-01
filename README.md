@@ -4,4 +4,4 @@ Built by GetStream.io as an example app, Aviato allows users to view the latest 
 
 To download the latest Android application, click [here](https://play.google.com/store/apps/details?id=io.getstream.aviato). To download the latest iOS version, click [here](here).
 
-If you're interested in reading the tutorial blog post, you can find it [here](https://getstream.io/blog).
+If you're interested in reading the tutorial blog post, you can find it [here](https://getstream.io/blog/aviato-a-prototype-built-with-streams-react-native-components-serverless-on-aws).
