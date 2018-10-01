@@ -1,0 +1,39 @@
+{
+	"name": "aviato",
+	"description":
+		"Built by GetStream.io as an example app, Aviato allows users to view the latest tweets mentioning the @FlyFrontier Twitter handle. The frontend is built with Stream's React Native Components for Building Activity Feeds (http://bit.ly/2RgGxLa) and the backend is entirely serverless using Stream, AWS API Gateway, Lambda and S3 via the https://serverless.com platform. The Aviato project is entirely open-source and available at http://bit.ly/2Rhdlnl.",
+	"version": "1.0.6",
+	"private": true,
+	"main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+	"scripts": {
+		"start": "react-native-scripts start",
+		"eject": "react-native-scripts eject",
+		"android": "react-native-scripts android",
+		"ios": "react-native-scripts ios",
+		"test": "jest"
+	},
+	"jest": {
+		"preset": "jest-expo"
+	},
+	"dependencies": {
+		"expo": "^30.0.1",
+		"expo-activity-feed": "^0.6.4",
+		"getstream": "^3.21.0",
+		"md5": "^2.2.1",
+		"moment": "^2.22.2",
+		"react": "16.5.2",
+		"react-native":
+			"https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+		"react-native-browser-polyfill": "^0.1.2",
+		"react-native-really-awesome-button": "^0.8.3",
+		"react-native-safe-area-view": "^0.11.0",
+		"react-native-select-multiple": "^1.2.0",
+		"react-navigation": "^2.17.0",
+		"twitter": "^1.7.1"
+	},
+	"devDependencies": {
+		"jest-expo": "^30.0.0",
+		"react-native-scripts": "2.0.1",
+		"react-test-renderer": "16.5.2"
+	}
+}

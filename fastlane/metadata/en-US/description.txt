@@ -1,0 +1,1 @@
+Built by GetStream.io as an example app, Aviato allows users to view the latest tweets mentioning the @FlyFrontier Twitter handle.

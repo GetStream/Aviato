@@ -1,0 +1,1 @@
+Aviato allows users to view tweets mentioning the @FlyFrontier Twitter handle.

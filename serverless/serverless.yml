@@ -1,0 +1,29 @@
+service: aviato
+app: aviato
+tenant: stream
+
+frameworkVersion: ">=1.32.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: prod
+  region: us-east-1
+
+functions:
+    token:
+        handler: handler.token
+        memorySize: 128
+        timeout: 3
+        description: Submits an email in response for a user token.
+        events:
+            - http:
+                path: token
+                method: post
+    crawl:
+        handler: handler.crawl
+        memorySize: 128
+        timeout: 3
+        description: Crawls tweets that are related to Frontier airlines.
+        events:
+            - schedule: rate(5 minutes)

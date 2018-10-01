@@ -1,0 +1,5 @@
+deliver(
+  submit_for_review: true,
+  force: true,
+  metadata_path: "./metadata"
+)
