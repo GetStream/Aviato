@@ -134,26 +134,18 @@ export default class Feed extends Component {
 	}
 }
 
-const styles = StyleSheet.create({
-	container: {
-		flex: 1
-	},
-	commentBox: {
-		marginTop: 100
-	}
-});
-
-export class CommentBoxEdit extends React.Component {
+export class CommentBoxEdit extends Component {
 	static defaultProps = {
 		styles: {}
 	};
+
 	state = {
 		text: ''
 	};
 
 	render() {
 		return (
-			<React.Fragment>
+			<Fragment>
 				<View style={{ height: this.props.height }} />
 				<View
 					style={{
@@ -184,7 +176,16 @@ export class CommentBoxEdit extends React.Component {
 						}}
 					/>
 				</View>
-			</React.Fragment>
+			</Fragment>
 		);
 	}
 }
+
+const styles = StyleSheet.create({
+	container: {
+		flex: 1
+	},
+	commentBox: {
+		marginTop: 100
+	}
+});
