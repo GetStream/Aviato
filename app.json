@@ -12,6 +12,7 @@
 		"orientation": "portrait",
 		"primaryColor": "#108151",
 		"githubUrl": "https://github.com/GetStream/Aviato",
+		"platforms": ["android"],
 		"ios": {
 			"icon": "assets/logo.png",
 			"bundleIdentifier": "com.getstream.aviato"
