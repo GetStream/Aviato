@@ -11,7 +11,7 @@ export default class Welcome extends Component {
 	componentDidMount() {
 		setTimeout(() => {
 			this.props.navigation.navigate('Feed');
-		}, 2000);
+		}, 1000);
 	}
 
 	render() {
