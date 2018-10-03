@@ -14,7 +14,7 @@ functions:
     token:
         handler: handler.token
         memorySize: 128
-        description: Submits an email in response for a user token.
+        description: Submits an value in response for a user token.
         events:
             - http:
                 path: token
